@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Running App Landing Page</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- header section starts -->
+      <header id="header">
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#home" class="nav-link">home</a></li>
+            <li><a href="#products" class="nav-link">products</a></li>
+            <li><a href="#get_started" class="nav-link">get started</a></li>
+            <li><a href="#">reviews</a></li>
+          </ul>
+        </nav>
+
+        <div class="himage">
+          <img
+            id="header-img"
+            src="https://media.istockphoto.com/id/1210456306/de/vektor/r-f%C3%BCr-run-running-logo-vektor.jpg?b=1&s=170x170&k=20&c=w9xfnaYlyybzGQlKiuQ2bVlpowgXCNKfi081545jt0c="
+            alt="running app"
+          />
+        </div>
+      </header>
+
+      <!-- header section ends -->
+
+      <!-- content section starts -->
+
+      <section class="container" id="home">
+        <div class="content">
+          <h1>running app</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            adipisci, neque voluptates rerum dolor, itaque ratione, libero sit
+            quisquam hic expedita dolorum ea id. Cupiditate explicabo nulla odio
+            temporibus sed.
+          </p>
+          <div class="buttons">
+            <a href="#get_started"><button>get started</button></a>
+            <a href="#"><button>read more</button></a>
+          </div>
+          <div class="icons">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="image">
+          <img
+            class="image"
+            src="https://img.freepik.com/premium-vector/man-running-with-smartwatch-him-giving-exercise-data-heart-weights-water-icons_494516-1802.jpg"
+            alt="running app image"
+          />
+        </div>
+      </section>
+
+      <section id="products">
+        <div class="content-video">
+          <h1>Product Overview</h1>
+          <div class="video-frame">
+            <iframe
+              class="video"
+              src="https://www.youtube.com/watch?v=-s-4TQ7zS5E"
+              frameborder="0"
+              id="video"
+            ></iframe>
+          </div>
+          <div class="paragraph-frame">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              natus ea non ullam ad tenetur sequi facilis explicabo nobis
+              inventore nulla, repellendus deleniti voluptatum quaerat ratione a
+              necessitatibus, veniam corporis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="get_started">
+        <div class="content-form">
+          <h1>We've got a free 1-month trial for you!</h1>
+          <p>Fill in the form and get the offer NOW!</p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="input-element">
+              <label for="name" id="name-label">Name</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Enter your name"
+              /><br />
+            </div>
+
+            <div class="input-element">
+              <label for="email" id="email-label">Email</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Enter your email"
+              /><br />
+            </div>
+
+            <div class="input-element">
+              <label
+                class="dropdown"
+                for="dropdown"
+                placeholder="Select an option"
+                required
+                >How did you here about us?</label
+              ><br />
+              <select name="role" id="dropdown">
+                <option value="social-media">Social Media</option>
+                <option value="advertisments">Advertisements</option>
+                <option value="friend-family">Friend/Family</option>
+                <option value="prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div>
+              <input type="submit" id="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- content section ends -->
+    </div>
+  </body>
+</html>
